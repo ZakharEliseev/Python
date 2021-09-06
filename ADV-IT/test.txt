@@ -1,0 +1,26 @@
+hero.py
+Less10-Dictionary.py
+Less11-Dicitionary2.py
+Less12-Input.py
+Less13-Function1.py
+Less14-Function2.py
+Less16-Modules.py
+Less177-Classes.py
+Less18-Classes2.py
+Less19-Files.py
+Less20-Exceptions.py
+Less21.1-JSON.py
+Less21-JSON.py
+Less22-Argumenti-CMD.py
+Less5-Stroki.py
+Less6-Nomera.py
+Less7-Cikli.py
+Less8-Lists1.py
+Less8-Lists2.py
+Less9-Loops.py
+Lessons_List.txt
+Modul.py
+my dir
+__pycache__
+test.txt
+user_settings.txt
