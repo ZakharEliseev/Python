@@ -32,3 +32,26 @@ month = input()
 day = input()
 info = "Дата рождения пользователя:"
 print(info + ' ' + year + " - " + month + " - " + day)
+
+
+
+
+
+
+
+
+
+
+
+
+
+number = '89224358855'\
+         '89225678899'\
+         '8922x334494'\
+         '8951-3346689'
+
+
+fornumber = r'\d{11}'
+num = re.findall(fornumber, number)
+
+print(num)
