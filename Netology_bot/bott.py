@@ -6,9 +6,10 @@ token = '1972623839:AAEacDtL6ohqar2jYjT3-oLeMIcUngDIUII'
 
 bot = telebot.TeleBot(token)
 HELP = """
-/help - spravka
-/add - dobavlenie
-/show - pokazat dobavlenie
+/help - Справка по командам бота
+/add - Добавление задачи 
+/show - Добавленные задачи
+/show_all - Показать все задачи без дат
 /exit - exit
 /random - add random task for date
 """
@@ -60,6 +61,12 @@ def show(message):
     else:
         text = 'Tasks not for date'
     bot.send_message(message.chat.id, text)
+
+
+@bot.message_handler(commands=['show_all'])
+def show_all(message):
+    all_tasks = tasks.items()
+    bot.send_message(message.chat.id, all_tasks)
 
 
 bot.polling(none_stop=True)
